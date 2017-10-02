@@ -31,6 +31,7 @@
 .navbar-nav>li{
     padding-left: 50px;
     padding-right: 50px;
+    
 }
 
 }
@@ -39,20 +40,31 @@
 
 .warpwelcome{
     font-family: "MyHeaders";
+    height:421px;
     font-size: 50px;
     text-align: center;
-    color:black;/*change to white once black backround*/
+    color:White;
+    background:black;
 }
 
-.intro{
+.demo{
     font-family: "MyHeaders";
     font-size: 20px;
     text-align: justify;
-    color:black; /*change to white once the black background is in too*/
+    color:white;
+    background:black;
 
 }
 
+body{
+    background:black;
+}
 
+.pipes{
+    font-family: "MyHeaders";
+    font-size: 10pxx;
+    text-align: center;
+}
 
 
 
@@ -61,7 +73,7 @@
 footer{
     height: 50px;
     padding-top:10px;
-    background-image:URL("assets/images/backgrounds/block.png");
+    background-image:URL("../images/backgrounds/footer.png");
    
     
 }

@@ -13,7 +13,7 @@
         var settings = {
             'selector': this,
             'extra_char': '',
-            'delay':    50,
+            'delay':    25,
             'trim':     false,
             'callback': null
         };
