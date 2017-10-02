@@ -1,0 +1,91 @@
+/*Fonts for project*/
+@font-face{
+    font-family: "MyHeaders";
+    src: url("head.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "MyBody";
+    src: url("body.ttf") format("truetype");
+}
+
+/*---------------NavBar styling-------------- */
+.navbar a{
+    font-family: "MyBody";
+
+}
+
+.navbar-brand{
+    font-size: 60px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: red;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: red;
+}
+
+
+@media  (min-width: 1200px){
+.navbar-nav>li{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+}
+
+/*--------Main Body-----*/
+
+.warpwelcome{
+    font-family: "MyHeaders";
+    font-size: 50px;
+    text-align: center;
+    color:black;/*change to white once black backround*/
+}
+
+.intro{
+    font-family: "MyHeaders";
+    font-size: 20px;
+    text-align: justify;
+    color:black; /*change to white once the black background is in too*/
+
+
+
+
+/*---------------Footer Styling--------------*/
+
+footer{
+    height: 50px;
+    padding-top:10px;
+    bottom:0px;
+    background-image: URL("assets/images/backgrounds/ublk.png")
+    
+    
+}
+
+}
+
+.social-links{
+    padding-bottom: 15px;
+    
+    
+}
+.social-links li a i{
+    width:32px;
+    height:32px;
+    padding:12px 0;
+    border-radius:50%;
+    font-size:13px;
+    line-height: 7px;
+    text-align: center;
+    color:#fafafa;
+    background:#8f8f8f;
+    transition:all 0.35s ease-in-out;
+    -moz-transition:all 0.35s ease-in-out;
+    -webkit-transition:all 0.35s ease-in-out;
+    -o-transition:all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background:#e84610;
