@@ -50,6 +50,9 @@
     text-align: justify;
     color:black; /*change to white once the black background is in too*/
 
+}
+
+
 
 
 
@@ -58,12 +61,9 @@
 footer{
     height: 50px;
     padding-top:10px;
-    bottom:0px;
-    background-image: URL("assets/images/backgrounds/ublk.png")
+    background-image:URL("assets/images/backgrounds/block.png");
+   
     
-    
-}
-
 }
 
 .social-links{
@@ -89,3 +89,4 @@ footer{
 
 .social-links li a i:hover{
     background:#e84610;
+}

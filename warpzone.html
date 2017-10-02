@@ -4,6 +4,17 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="assets/css/style.css" type="text/css"/> 
+        
+        <style type="text/css">
+    .demo {
+        display: none;
+        font-family: "MyHeaders";
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+    </style>
+    
     </head>
     <body>
         <nav class="navbar navbar-inverse">
@@ -31,8 +42,8 @@
                      <h1 class="warpwelcome">Welcome to the Warp Zone!</h1>
                  </div>
                  
-                 <div class="col-sm-4 col-sm-offset-4">
-                  <p class="intro">This is going to be the introduction to the rest of the website, but for now it will just be filled with some boring old placeholding text. Its going to be white and hopefully appear like a typewriter! Oooh exciting.  Below this area we will have the pipes that have animations connected to them that lead to the rest of the site!!!!!</p>
+                 <div class=" demo col-sm-4 col-sm-offset-4">
+                  <p class="intro" >This is going to be the introduction to the rest of the website, but for now it will just be filled with some boring old placeholding text. Its going to be white and hopefully appear like a typewriter! Oooh exciting.  Below this area we will have the pipes that have animations connected to them that lead to the rest of the site!!!!!</p>
                  </div>
              </div>
              
@@ -41,8 +52,8 @@
              
          
          
-        <footer class =container-fluid>
-            <div id ="footer details" class="row pull-right">
+        <footer class ="container-fluid">
+            <div id ="footer-details" class="row pull-right">
                 
                 
                 <div class ="col-xs-12">
@@ -59,4 +70,15 @@
     </body>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/typewriter.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+    $('.demo').typewrite({
+        'callback': function(){
+            $('.demo').css;
+        },
+        'delay': 50
+    });
+});
+</script>
 </html>
