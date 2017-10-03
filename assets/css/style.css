@@ -9,6 +9,16 @@
     src: url("body.ttf") format("truetype");
 }
 
+@font-face{
+    font-family: "super";
+    src: url("super.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "poly";
+    src: url("poly.ttf") format("truetype");
+}
+
 /*---------------NavBar styling-------------- */
 
 .navbar{
@@ -41,7 +51,7 @@
 
 }
 
-/*--------Main Body-----*/
+/*--------Main Body of Warp Zone-----*/
 
 
 
@@ -53,8 +63,19 @@
     background:black;
 }
 
+@media (min-width:100px){
+    .warpwelcome{
+        text-align: center;
+    }
+}
+
 .warpwelcome h1{
-    font-size: 25px
+    font-size: 12px
+}
+@media (min-width:1000px){
+    .warpwelcome h1{
+        font-size:20px;
+    }
 }
 @media (min-width:1240px){
     .warpwelcome h1{
@@ -125,6 +146,43 @@ body{
     }
 }
 
+@media only screen and (max-width: 1040px) {
+    #downpipe {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1040px){
+    #mobhide{
+        display:none;
+    }
+}
+
+/*--------------Main Body of Mario and Friends--*/
+
+.mandfintro{
+    font-family: "poly";
+    text-align: center;
+}
+
+.mandfintro span{
+    font-size: 12px
+}
+@media (min-width:1000px){
+    .mandfintro h1{
+        font-size:20px;
+    }
+}
+@media (min-width:1240px){
+    .mandfintro h1{
+        font-size:30px;
+    }
+}
+@media (min-width:1500px){
+    .mandfintro h1{
+        font-size:35px;
+    }
+}
 
 
 /*---------------Footer Styling--------------*/
