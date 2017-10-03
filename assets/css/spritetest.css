@@ -1,0 +1,14 @@
+.runner{
+    width:32.33333333px;
+    height:65px;
+    background:url("assets/images/mariorun.png");
+    animation:run 1 sec steps(3)infinite, slide 4 sec steps(20) infinite;
+}
+
+@keyframes run{
+    100%{background-position: -97px;}
+}
+
+@keyframes slide{
+    100% {margin-right: -32.3333333px;}
+}

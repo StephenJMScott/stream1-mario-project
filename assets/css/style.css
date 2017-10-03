@@ -158,28 +158,53 @@ body{
     }
 }
 
-/*--------------Main Body of Mario and Friends--*/
+/*--------------Main Body of Mario and Friends/BowserandCo--*/
 
 .mandfintro{
     font-family: "poly";
+    color:blue;
     text-align: center;
 }
 
-.mandfintro span{
+.mandfintro{
     font-size: 12px
 }
 @media (min-width:1000px){
-    .mandfintro h1{
+    .mandfintro {
         font-size:20px;
     }
 }
 @media (min-width:1240px){
-    .mandfintro h1{
+    .mandfintro{
         font-size:30px;
     }
 }
 @media (min-width:1500px){
-    .mandfintro h1{
+    .mandfintro{
+        font-size:35px;
+    }
+}
+.bowserintro{
+    font-family: "poly";
+    color:yellow;
+    text-align: center;
+}
+
+.bowserintro{
+    font-size: 12px
+}
+@media (min-width:1000px){
+    .bowserintro {
+        font-size:20px;
+    }
+}
+@media (min-width:1240px){
+    .bowserintro{
+        font-size:30px;
+    }
+}
+@media (min-width:1500px){
+    .bowserintro{
         font-size:35px;
     }
 }
