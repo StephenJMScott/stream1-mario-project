@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "MyBody";
+    src: url("body.ttf") format("truetype");
+}
+.progress{
+    background:url("../images/backgrounds/giphy.gif");
+    background-size:cover;
+    background-position:center center;
+    
+}
+
+.working-title{
+    font-family: "MyBody";
+    font-size: 50px;
+    height:75px;
+    width:100%;
+    text-align: center;
+    vertical-align: center;
+}

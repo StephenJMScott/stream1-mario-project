@@ -60,12 +60,15 @@
     height:550px;
     text-align: left;
     color:White;
-    background:black;
+    background: url("../images/backgrounds/mobileback.png");
+    
 }
 
-@media (min-width:100px){
+
+@media (min-width:1040fontpx){
     .warpwelcome{
         text-align: center;
+        background:black;
     }
 }
 
@@ -134,6 +137,9 @@ body{
     position: relative;
     bottom: 0;
     vertical-align: bottom;
+}
+.pipes a>img::hover{
+    
 }
 @media only screen and (min-width : 768px) {
     .is-table-row {
