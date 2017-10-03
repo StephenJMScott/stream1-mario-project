@@ -10,6 +10,11 @@
 }
 
 /*---------------NavBar styling-------------- */
+
+.navbar{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 .navbar a{
     font-family: "MyBody";
 
@@ -38,23 +43,59 @@
 
 /*--------Main Body-----*/
 
+
+
 .warpwelcome{
     font-family: "MyHeaders";
-    height:421px;
-    font-size: 50px;
-    text-align: center;
+    height:550px;
+    text-align: left;
     color:White;
     background:black;
 }
 
+.warpwelcome h1{
+    font-size: 25px
+}
+@media (min-width:1240px){
+    .warpwelcome h1{
+        font-size:30px;
+    }
+}
+@media (min-width:1500px){
+    .warpwelcome h1{
+        font-size:35px;
+    }
+}
+
 .demo{
     font-family: "MyHeaders";
-    font-size: 20px;
+    font-size: 10px;
     text-align: justify;
     color:white;
     background:black;
 
 }
+@media(min-width:1000px){
+    .demo{
+        font-size: 12px;
+    }
+}
+@media(min-width:1250px){
+    .demo{
+        font-size: 15px;
+    }
+}
+@media(min-width:1620px){
+    .demo{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1875px ){
+    .demo{
+        font-size: 20px;
+    }
+}
+
 
 body{
     background:black;
@@ -62,8 +103,26 @@ body{
 
 .pipes{
     font-family: "MyHeaders";
-    font-size: 10pxx;
+    font-size: 10px;
     text-align: center;
+    position: relative;
+    bottom:0;
+}
+
+.pipes>div{
+    position: relative;
+    bottom: 0;
+    vertical-align: bottom;
+}
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: bottom;
+    }
 }
 
 
@@ -72,8 +131,9 @@ body{
 
 footer{
     height: 50px;
-    padding-top:10px;
+    padding-top: 10px;
     background-image:URL("../images/backgrounds/footer.png");
+    z-index: 100;
    
     
 }
