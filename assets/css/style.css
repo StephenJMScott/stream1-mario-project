@@ -57,18 +57,19 @@
 
 .warpwelcome{
     font-family: "MyHeaders";
-    height:550px;
-    text-align: left;
+    height:400px;
+    text-align: center;
     color:White;
-    background: url("../images/backgrounds/mobileback.png");
+   background:black;
     
 }
 
 
-@media (min-width:1040fontpx){
+@media (min-width:1040px){
     .warpwelcome{
-        text-align: center;
-        background:black;
+        text-align: left;
+        height:550px;
+        
     }
 }
 
@@ -125,22 +126,34 @@ body{
     background:black;
 }
 
+
+
+@media (min-width:1040px){
+    #mobile{
+        display: none;
+    }
+}
+
+
+
 .pipes{
     font-family: "MyHeaders";
     font-size: 10px;
     text-align: center;
     position: relative;
     bottom:0;
+    
+    
 }
+
+
 
 .pipes>div{
     position: relative;
     bottom: 0;
     vertical-align: bottom;
 }
-.pipes a>img::hover{
-    
-}
+
 @media only screen and (min-width : 768px) {
     .is-table-row {
         display: table;
@@ -159,8 +172,12 @@ body{
 }
 
 @media only screen and (max-width:1040px){
-    #mobhide{
+    #desktop{
         display:none;
+    }
+    
+    #mobile{
+        display: inherit;
     }
 }
 
@@ -220,15 +237,23 @@ body{
 
 footer{
     height: 50px;
+    width: 100%;
     padding-top: 10px;
+    margin:0 0 0 0;
     background-image:URL("../images/backgrounds/footer.png");
     z-index: 100;
-   
-    
+    position:relative;
+    bottom:0;
 }
+/*@media (max-width:1040px){*/
+/*    footer{*/
+/*        position:absolute;*/
+/*    }*/
+/*}*/
 
 .social-links{
     padding-bottom: 15px;
+    
     
     
 }
