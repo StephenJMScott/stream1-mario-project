@@ -1,0 +1,30 @@
+.big-intro{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    
+}
+
+.background-map{
+    background-image:url("assets/images/backgrounds/mobileback.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.background-map .row{
+    max-height: 50%;
+}
+
+.background-map .clearlink> img{
+  display: block;
+  max-width:50%;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width:320px){
+    
+}
