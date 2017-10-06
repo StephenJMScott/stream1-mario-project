@@ -397,7 +397,44 @@ body{
   bottom: 0px;
   left: 43px;
 }
+/*Contact Form styling*/
+.contact-heads h1,h2{
+    font-family: "italsnes";
+    text-align: center;
+    color:red;
+}
 
+.contact-heads h1{
+    font-size:50px;
+    margin-bottom:2px;
+    padding-bottom:0;
+    bottom:0;
+}
+.contact-heads h2{
+    font-size:40px;
+    margin-top:2px;
+    padding-top:0;
+    top:0;
+}
+.form-group{
+    height:50px;
+}
+
+.form-group .checkbox-inline{
+    margin-left:15px;
+}
+
+.form-group .tryalign{
+    margin-left:30px;
+}
+
+.form-control-text{
+    width:79%;
+    margin-left:15px;
+}
+/*.form-group input{*/
+/*    width:70%;*/
+/*}*/
 
 /*---------------Footer Styling--------------*/
 

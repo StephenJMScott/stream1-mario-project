@@ -4,27 +4,31 @@
     <link rel="stylesheet" href="pagedelay.css" type="text/css" />
 </head>
 <body>
-<div class="bgimg-1">
+<div id="bgimg" class="bgimg-1">
   <div class="caption">
-    <a id="switch" href= "javascript:delay('marioandfriends.html')"><span class="border">
-    <img src="assets/images/consoles/nescontrol.png"></span></a><br>
+    <span class="border">
+    <img id="switch" src="assets/images/consoles/nescontrol.png"></span><br>
     <span class="border">Press Start To Continue</span>
   </div>
 </div>
 </body>
+<script src="https://code.jquery.com/jquery.min.js"></script>
 <script>
     function delay (URL) {
     setTimeout( function() { window.location = URL }, 3000 );
 }
+        $(document).ready(function() {
+          
+          $("#switch").click(function(){
+            $("#bgimg").removeClass("bgimg-1").addClass("bgimg-2")
+            delay("warpzone.html")
+        });  
+            
+            
+        })
+    
 </script>
-<script>
 
-    
-        $("#switch").click(function(){
-            addClass(".bgimg-2").removeClass(".bgimg-1")
-        });
-    
-</script>
 
 </html>
 
