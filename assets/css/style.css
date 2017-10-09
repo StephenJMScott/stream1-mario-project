@@ -416,6 +416,15 @@ body{
     padding-top:0;
     top:0;
 }
+.contact-heads p{
+    font-size:12px;
+    font-family:"sneschar";
+    color:white;
+}
+.contact-heads p a{
+    text-decoration:none;
+    color:red;
+}
 .form-group{
     height:50px;
 }
