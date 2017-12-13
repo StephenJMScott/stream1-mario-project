@@ -1,3 +1,5 @@
+
+
 /*Fonts for project*/
 @font-face{
     font-family: "sneschar";
@@ -219,8 +221,74 @@ body{
     border-style: solid;
     border-color: #FFC765;
     border-width: 10px;
-
+   
 }
+
+#friends h3{
+    font-family: "italsnes";
+    font-size:40px;
+    text-align: center;
+    color:red;
+}
+#friends p{
+    font-family: "italsnes";
+    font-size:30px;
+    color: white;
+    margin-left: 15px;
+    margin-right:0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#friends img{
+    border-style: solid;
+    border-color: #FFC765;
+    border-width: 10px;
+   
+}
+
+#baddie h3{
+    font-family: "italsnes";
+    font-size:40px;
+    text-align: center;
+    color:red;
+    
+}
+#baddie h4{
+    font-family: "italsnes";
+    font-size:30px;
+    color: white;
+    margin-left: 15px;
+    margin-right:0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+#baddie p{
+    font-family: "italsnes";
+    font-size:15px;
+    color: white;
+    margin-left: 15px;
+    margin-right:0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#baddie img{
+    border-style: solid;
+    border-color: #FFC765;
+    border-width: 10px;
+    font-family: 'italsnes'
+   
+}
+
+.portrait{
+    height:200px;
+    width:200px;
+}
+
+
+
+
 /* Timeline */
 .timeline-horizontal {
   list-style: none;
@@ -347,6 +415,7 @@ body{
   position: relative;
   padding: 20px 0px 20px 0px;
   display: inline-block;
+  max-width: 90%;
 }
 .timeline-horizontal:before {
   height: 3px;
@@ -441,6 +510,12 @@ body{
     width:79%;
     margin-left:15px;
 }
+
+
+.form-group .control-label,
+label.checkbox-inline{
+    color:white;
+}
 /*.form-group input{*/
 /*    width:70%;*/
 /*}*/
@@ -455,6 +530,9 @@ footer{
     background-image:URL("../images/backgrounds/footer.png");
     z-index: 100;
     bottom:0;
+    right:0;
+    left:0;
+    position: fixed;
 }
 
 
@@ -484,7 +562,7 @@ footer{
     background:#e84610;
 }
 
-#fixed{
-    position: relative;
-    bottom:0;
-}
+/*#fixed{*/
+/*    position: relative;*/
+/*    bottom:0;*/
+/*}*/
