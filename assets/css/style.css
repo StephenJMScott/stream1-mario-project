@@ -46,6 +46,12 @@
 
 /*--------Main Body of Warp Zone-----*/
 
+#warpcontent{
+ height:90%;
+ width: 90%;
+    
+}
+
 
 
 .warpwelcome{
@@ -117,6 +123,7 @@
 
 body{
     background:black;
+    height: 100%;
 }
 
 
