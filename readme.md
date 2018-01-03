@@ -12,33 +12,33 @@ Follow this link to see the deployed version of the project - https://stephenjms
 
 To clone this project take the following steps:
 
-*Click the green "Clone or Download" button from the top right of this repository.
-*Copy the link into your clipboard, or take it from here - https://github.com/StephenJMScott/stream1-mario-project.git
-*Within your terminal ensure you are in the folder you wish to contain the project
-*Type the following into the command line: "$ git clone https://github.com/StephenJMScott/stream1-mario-project.git"
-*The entire project should be now contained within your desired folder. 
+* Click the green "Clone or Download" button from the top right of this repository.
+* Copy the link into your clipboard, or take it from here - https://github.com/StephenJMScott/stream1-mario-project.git
+* Within your terminal ensure you are in the folder you wish to contain the project
+* Type the following into the command line: "$ git clone https://github.com/StephenJMScott/stream1-mario-project.git"
+* The entire project should be now contained within your desired folder. 
 
-##Testing
+## Testing
 Throughout the creation of this project manual testing was undertaken to ensure all pages worked across a number of devices and browsers as well as ensuring all links and javascript functions worked as intended. 
 
 Within the "testpages" folder there are several rough pages where ideas were tested before being introduced to the overall project.
 
-##Deployment
+## Deployment
 
 This project has been deployed to GitHub Pages.
 
-##Built With
+## Built With
 HTML5-
 * Each page of the site was built with its own unique html file
 
 CSS3-
-*The entire site was styled using CSS3 stylesheets.
-*Mobile responsiveness for the pages, navbar, layout and forms come from Bootstrap
+* The entire site was styled using CSS3 stylesheets.
+* Mobile responsiveness for the pages, navbar, layout and forms come from Bootstrap
 
 JavaScript-
-*jQuery was used for the animation/page delay combination on the landing page as the start link is pressed. 
-*jQuery was used for the typewriter style animation on the WarpZone page. All credit to Chad Selph for this effect.   https://github.com/chadselph/jquery-typewriter
-*imageMapResizer.js was used for the clickable parts of images throughout the mobile WarpZone and the Locations Page.
+* jQuery was used for the animation/page delay combination on the landing page as the start link is pressed. 
+* jQuery was used for the typewriter style animation on the WarpZone page. All credit to Chad Selph for this effect.   https://github.com/chadselph/jquery-typewriter
+* imageMapResizer.js was used for the clickable parts of images throughout the mobile WarpZone and the Locations Page.
 Credit-Copyright: (c) 2015 David J. Bradshaw - dave@bradshaw.net
-*jQuery was used for the changing images relating to different points on the timeline in the Mario and Friends Page. 
+* jQuery was used for the changing images relating to different points on the timeline in the Mario and Friends Page. 
 
