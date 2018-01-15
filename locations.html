@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="assets/css/style.css" type="text/css"/> 
         
     
     </head>
+    
     <body>
-        <nav class="navbar navbar-inverse">
+        <div class = "content">
+            <nav class="navbar navbar-inverse">
              <div class="container">
                  <div class="nav navbar-header">
                      <a class="navbar-brand" href="#">SUPER MARIO</a>
@@ -27,29 +31,155 @@
             </div>
          </nav>
          
-         <div class ="container">
-             <div class ="col-sm-12">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/n4ucO4xe28c?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
-                    
-                </iframe>
-                
-                <div class="wrapper fade-in">
-                    <h1>Sorry, Page Under Construction! You'll have to look elsewhere!</h1>
-
-                
-            
-             </div>
-         </div>
          
-        
-          
-          
-          
-                 
-              
+         <div class = "container">
              
-        <footer class ="container-fluid" id="desktop">
-            <div id ="footer-details" class="row pull-right">
+             <h1 class = "charintro">Locations</h1>
+             <h2>Click on the panels below to reveal an insight into some of the various locations throughout the world.</h2>
+             
+             
+                 
+             
+             <div class="panel-group" id="accordion">
+               <div class="panel">
+                   
+                   <a data-toggle="collapse" href="#collapseOne" data-parent="#accordion">
+                       <div class="panel-heading">
+                       <h4 class="panel-title">
+                            From then until now.
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseOne" class="panel-collapse collapse">
+                       
+                           <div class="panel-body">
+                               <p class="col-sm-12">The Mario world map has evolved a lot since the games inception from an 8-bit black and white map to a vibrant colorful 3D map. Despite this the type of terrain has remained pretty consistent. From the older style on top to the modern below</p>
+                               
+                               <div class= "row">
+                                   <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/oldmap.png" >
+                                    <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/modmap.png">
+                                    
+                                </div>
+                               
+                               
+                           </div>
+                        </div>
+                
+               </div>
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseTwo" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                            The Overworld
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseTwo" class="panel-collapse collapse">
+                           <div class="panel-body">
+                               <p>The majority of marios adventures take place in the overworld and has looked pretty consistent throughout.
+                               </p>
+                               <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/overworld.jpg" style="max-height:200px max-width:auto" >
+                               
+                           </div>
+                       </div>
+               </div>
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseThree" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                           The Underworld 
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseThree" class="panel-collapse collapse">
+                           <div class="panel-body">
+                              <p>The underground ground levels are prevailent throughout all the mario games and should be quite familiar as this site is based off them! </p>
+                              <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/underground.jpg"  >
+                           </div>
+                       </div>
+               </div>
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseFour" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                           Water
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseFour" class="panel-collapse collapse">
+                           <div class="panel-body">
+                               <p>From time to time Mario is plunged into an underwater level where he is usally very vunerable.
+                               </p>
+                               <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/underwater.jpg"  >
+                           </div>
+                       </div>
+               </div>
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseFive" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                            Deserts
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseFive" class="panel-collapse collapse">
+                           <div class="panel-body">
+                               <p>The Desert Land first arrived in the second world of Super Mario Bros 3 and brought with it a whole host of new enemies and tricky terrain.
+                               </p>
+                               <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/desert.png"  >
+                           </div>
+                       </div>
+               </div>
+               
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseSix" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                           Ice
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseSix" class="panel-collapse collapse">
+                           <div class="panel-body">
+                               <p>Super Mario Bros 3 also brought up the Ice Land world in world 6. Another tricky hazardous terrain and enemies as well as friendly penguins, who are known to lose their chicks.
+                               </p>
+                               <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/marpeng.jpg"  >
+                           </div>
+                       </div>
+               </div>
+               <div class="panel">
+                   <a data-toggle="collapse" href="#collapseSeven" data-parent="#accordion">
+                   <div class="panel-heading">
+                       <h4 class="panel-title">
+                           Castles
+                       </h4>
+                   </div>
+                   </a>
+                       <div id="collapseSeven" class="panel-collapse collapse">
+                           <div class="panel-body">
+                               <p>Castles are throughout the entire series and come at the end of a given world. They are full of haunted enemies and dangerous lava. They have a boss fight at the end and King Bowser resides in the final Castle of the Final world.
+                               </p>
+                               <img class ="col-sm-8 col-sm-offset-2" src="assets/images/backgrounds/castle.png"  >
+                           </div>
+                       </div>
+               </div>
+               
+               
+            </div><!--end of accordian-->
+            
+            </div><!-- end of container-->
+             
+         
+         
+         
+            
+            
+            
+            
+        </div> <!-- end of content-->
+        
+        <footer class = "footer">
+            <div id ="footer-details" class="row pull-left">
                 
                 
                 <div class ="col-xs-12">
@@ -65,5 +195,6 @@
         </footer>
         
     </body>
- 
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

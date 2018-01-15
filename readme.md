@@ -41,4 +41,5 @@ JavaScript-
 * imageMapResizer.js was used for the clickable parts of images throughout the mobile WarpZone and the Locations Page.
 Credit-Copyright: (c) 2015 David J. Bradshaw - dave@bradshaw.net
 * jQuery was used for the changing images relating to different points on the timeline in the Mario and Friends Page. 
+* Js was used for the moving timeline on the Mario and Friends Page, credit to George Martsoukos from www.webdesign.tutsplus.com
 
