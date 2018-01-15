@@ -103,7 +103,7 @@ body{
 
 .demo{
     font-family: "sneschar";
-    font-size: 1em;
+    font-size: 0.75em;
     text-align: justify;
     color:white;
     background:black;
@@ -128,6 +128,13 @@ body{
     vertical-align: bottom;
 }
 
+
+@media only screen and (min-width: 768px){
+    .demo{
+        font-size: 1em;
+    }
+    
+}
 
 @media (min-width:1040px){
     #mobile{
