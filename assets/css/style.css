@@ -101,6 +101,12 @@ body{
     font-size: 2em;
 }
 
+.fitThePage{
+    min-width:80vw;
+    max-width:80vw;
+    min-height:80vh;
+}
+
 .demo{
     font-family: "sneschar";
     font-size: 0.75em;
